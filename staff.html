@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <h1>Staff List</h1>
+
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marktograde.html">Mark to Grade Converter</a></li>
+                <li><a href="tempconvert.html">Temperature Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="sort">
+            <label for="sort">Sort by...</label>
+            <select id="sort">
+                <option id="name" value="Name">Name</option>
+                <option id="salary" value="Salary">Salary</option>
+            </select>
+            <button id="sortBtn">Sort</button>
+        </div>
+        
+        <div class="staffList" id="staffList">
+            <table border="1" id="staffTable">
+                <tr>
+                </tr>
+            </table>
+            <!-- I have to make two tables. I don't know how to change the table dynamically with the dropdown menu. -->
+            <table border="1" id="staffTable2">
+                <tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="footer">
+        <p>Keane Garcia, © 2026</p>
+    </footer>
+
+    <script src="scripts/stafflist.js"></script>
+</body>
+</html>

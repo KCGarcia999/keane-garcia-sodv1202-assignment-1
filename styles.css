@@ -1,0 +1,121 @@
+body{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.3em;
+    background-color: #74c0ff;
+}
+
+header > h1{
+    padding: 0.5em;
+    font-size: 2em;
+    background-color: #ff7b00;
+    color: #FFFFFF;
+    border-radius: 0.4em;
+}
+
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 1.5em;
+    background-color: #00a6ff;
+    border-radius: 0.4em;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    max-width: 10em;
+    padding-left:2em;
+    padding-right:2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.gradeInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff7b00;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 2em;
+}
+
+.gradeInput > input{
+    width: 10em;
+    height: 1.5em;
+    font-size: 0.5em;
+}
+
+.gradeInput > button{
+    width: 10em;
+    height: 2em;
+    font-size: 0.5em;
+}
+
+#validationMessage{
+    font-size: 1.2em;
+}
+
+.tempConvert {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #ff7b00;
+    border-radius: 0.4em;
+}
+
+#celsius, #fahrenheit, #kelvin{
+    padding: 0.5em;
+    width: 20em;
+    font-size: 1em;
+}
+
+/* this is for the div. */
+.sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+/* this is for the options */
+#sort {
+    width: 10em;
+    height: 2em;
+}
+
+table {
+    background-color: #FFFFFF;
+}
+
+#bird{
+    visibility: hidden;
+    size: 1em;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#staffTable2{
+    display: none;
+}
+
+footer {
+    background-color: #ff7b00;
+    padding: 0.3em;
+    margin-top: auto;
+    border-radius: 0.4em;
+    position: relative;
+    top: 15em;
+}
